@@ -37,5 +37,5 @@ func main() {
 	fmt.Println("Start: ", path[len(path)-1])
 	fmt.Println("End: ", path[0])
 	fmt.Println("Shortest path:", s)
-	fmt.Printf("Minimum distance: %d m", dist)
+	fmt.Printf("Minimum distance: %d meters\n", dist)
 }
