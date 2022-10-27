@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	//lint:ignore ST1001 because this way is more readable
 	. "github.com/justseyit/dijkstra/dijkstra"
 )
 
