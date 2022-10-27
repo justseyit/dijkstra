@@ -1,25 +1,6 @@
-package main
+package dijkstra
 
 import "fmt"
-
-type Vertex uint8
-
-const (
-	İstanbul Vertex = iota + 1
-	Samsun
-	Ankara
-	Bursa
-	İzmir
-	Kütahya
-	Konya
-	Antalya
-	Adana
-	Diyarbakır
-)
-
-func (v Vertex) String() string {
-	return [...]string{"", "İstanbul", "Samsun", "Ankara", "Bursa", "İzmir", "Kütahya", "Konya", "Antalya", "Adana", "Diyarbakır"}[v]
-}
 
 type Graph struct {
 	adjacencyMatrix [][]int

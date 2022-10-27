@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	. "github.com/justseyit/dijkstra/dijkstra"
+)
 
 func main() {
 
