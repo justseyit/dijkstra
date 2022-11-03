@@ -8,7 +8,8 @@ import (
 
 func main() {
 
-	var g *Graph = NewGraph(11)
+	//For 10 vertex, you must enter 11
+	var g Graph = NewGraph(11)
 
 	g.AddEdge(1, 3, 450)
 	g.AddEdge(1, 4, 154)

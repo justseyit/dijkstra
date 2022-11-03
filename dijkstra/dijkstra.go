@@ -4,7 +4,7 @@ import "math"
 
 type Dijkstra struct{}
 
-func (d *Dijkstra) ShortestPath(g *Graph, from, to int) ([]Vertex, int) {
+func (d *Dijkstra) ShortestPath(g Graph, from, to int) ([]Vertex, int) {
 	distance := make([]int, g.GetNumOfVertices())
 	visited := make([]bool, g.GetNumOfVertices())
 	previous := make([]int, g.GetNumOfVertices())

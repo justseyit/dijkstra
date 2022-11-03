@@ -11,8 +11,8 @@ func (g *Graph) AddEdge(from, to, weight int) {
 	g.adjacencyMatrix[from][to] = weight
 }
 
-func NewGraph(numOfVertices int) *Graph {
-	g := &Graph{
+func NewGraph(numOfVertices int) Graph {
+	g := Graph{
 		numOfVertices: numOfVertices,
 	}
 	g.adjacencyMatrix = make([][]int, numOfVertices)
