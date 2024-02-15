@@ -1,1 +1,1 @@
-# dijkstra
+# dijkstra algorithm with Golang
